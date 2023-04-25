@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.box:nth-child(1) {
+    color: red;
+}
+
+.box:nth-child(2) {
+    color: yellow;
+}
+
+.box:nth-child(3) {
+    color: green;
+}
+
